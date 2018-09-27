@@ -2,7 +2,7 @@
 A basic opencv program made with a PyQt5 gui.
 
 Includes:
-  - Webcamera streamming
+  - Webcam loading and playing
   - Snapshots
   - Image loading
   - Image Histogram Equalization
