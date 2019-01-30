@@ -5,4 +5,4 @@ Includes:
   - Webcam loading and playing
   - Snapshots
   - Image loading
-  - Image histogram rqualization
+  - Image histogram equalization
