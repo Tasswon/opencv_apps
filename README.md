@@ -3,6 +3,7 @@
 ## Histogram Equalization
 **Gui Library**: PyQt5\
 **Image Library**: OpenCV
+
 The function coordinates with a class variable holding an image location. The initial check verifies that the image contains a value and is the correct type. Once this is verified, it displays the image prior to performing the actual histogram equalization. Three arrays, 256 indices in size (0 -255) are setup to coordinate RGB values.
 
 
