@@ -16,3 +16,9 @@ The images do not need to be the same size, however they must have the same numb
 
 An issue with this task is related to the actual functions utilized in opencv itself. The affine transformation is applied to the entire image, whereas the purpose is to apply it to the individual triangles. The original function applied a simple methodology, however it requires many key points to smooth out the result. Therefore, cropping the image with a bounding box was used to efficiently mitigate this problem.
 
+
+## Classifier
+**Image Library**: OpenCV
+**Object Detector**: Vitamin D Pill Bottle
+
+The program was trained to detect a Vitamin D pill bottle using a haar cascade classifier. The program opens a webcam and then a bounding box will appear around and follow the bottle upon entering the frame.
