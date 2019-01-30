@@ -1,4 +1,4 @@
-# Opencv appS
+# Opencv Apps
 Basic opencv programs made with a PyQt5 gui.
 
 Includes:
