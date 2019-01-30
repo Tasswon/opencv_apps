@@ -10,9 +10,9 @@ from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox, QWidget, QFileDi
 from PyQt5.uic import loadUi
 
 
-class AssignmentOne(QDialog):
+class Opencv_App(QDialog):
     def __init__(self):
-        super(AssignmentOne, self).__init__()
+        super(OpenCv_App, self).__init__()
         loadUi('gui.ui', self)
         self.img = None
         self.feed = None
@@ -181,8 +181,8 @@ class AssignmentOne(QDialog):
 
 
 app = QApplication(sys.argv)
-window = AssignmentOne()
-window.setWindowTitle("Assignment One")
+window = Opencv_App()
+window.setWindowTitle("Opencv App")
 window.show()
 sys.exit(app.exec_())
 
